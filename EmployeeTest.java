@@ -7,9 +7,11 @@ public class EmployeeTest {
         System.out.println("----------------------------------------------------------\n"+
                             "|  Name  |    Id Number    |   Department   |   Position |\n"+
                             "----------------------------------------------------------\n"+
-                            employee1.getName()+"   |   "+employee1.getidNumber()+"   |   "+employee1.getDepartment()+ "   |   "+employee1.getPosition()+"\n"+
-                            employee2.getName()+"     |   "+employee2.getidNumber()+"   |   "+employee2.getDepartment()+ "   |   "+employee2.getPosition()+"\n"+
-                            employee3.getName()+"     |   "+employee3.getidNumber()+"   |   "+employee3.getDepartment()+ "   |   "+employee3.getPosition()+"\n"+
+                            employee1.getName()+"  |  "+employee1.getidNumber()+"  |  "+employee1.getDepartment()+ "  |  "+employee1.getPosition()+"\n"+
+                            "----------------------------------------------------------\n"+
+                            employee2.getName()+"  |  "+employee2.getidNumber()+"  |  "+employee2.getDepartment()+ "  | "+employee2.getPosition()+"\n"+
+                            "----------------------------------------------------------\n"+
+                            employee3.getName()+"  |  "+employee3.getidNumber()+"  |  "+employee3.getDepartment()+ "  |  "+employee3.getPosition()+"\n"+
                             "----------------------------------------------------------"
         );
     }
