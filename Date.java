@@ -8,6 +8,9 @@ public class Date {
     }
 
     public Date (){
+        month = 0;
+        day = 0;
+        year = 0;
     }
 
     public void setMonth(int m){
